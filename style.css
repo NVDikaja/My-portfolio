@@ -1,0 +1,131 @@
+:root {
+  --colorPrime: #4f510e;
+  --colorSecondary: #d3c7b1;
+  --colorLight: #d1c8b7;
+  --colorMoreLight: #fbf7e4;
+  --colorFonIcon: #d9d9d9;
+}
+header,
+footer,
+section {
+  padding: 100px 50px;
+  /* display: flex;
+    justify-content:center;
+   
+    align-items: center;
+     */
+  background: var(--colorPrime);
+  color: var(--colorMoreLight);
+}
+.nar{
+display: flex;
+justify-content: flex-end;
+flex-wrap: nowrap;
+}
+.maine {
+  padding: 50px 50px;
+  box-sizing: content-box;
+  background-color: var(--colorSecondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.maineFooter{
+    padding: 50px 50px;
+  box-sizing: content-box;
+  background-color: var(--colorSecondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+
+.cardAbout{
+padding: 30px;
+margin: 10px 0;
+border-radius: 30px;
+    background-color: var(--colorSecondary);
+color: var(--colorPrime);
+ border: #4f510e 10px solid;
+    
+}
+.cardAboutF{
+    padding: 9px;
+    margin: 10px 0;
+    border-radius: 30px;
+        background-color:var(--colorPrime);
+    color: var(--colorPrime);
+    
+        
+    }
+
+h1 {
+  color: var(--colorPrime);
+  font-size: 40xp;
+}
+/* .color1 {
+  color: var(--colorMoreLight);
+} */
+.icon {
+  border-radius: 15px;
+ 
+  margin-left:50px;
+}
+.iconF {
+    border-radius: 15px;
+    
+    margin: 50px auto;
+  }
+h2 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight:normal;
+  font-style: normal;
+  text-align: center;
+}
+h3 {
+    text-align: left;
+  padding-top: 50px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+h4{
+  color: var(--colorPrime);
+}
+.paragraf {
+  padding-top: 50px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+  flex-wrap: wrap;
+}
+p {
+  color: var(--colorPrime);
+  font-size: 20px;
+}
+a {
+  color: var(--colorMoreLight);
+  text-decoration: none;
+  margin: 20px 20px;
+  font-size: 20px;
+  
+}
+.btn-lg {
+  display: block;
+  max-width: 200px;
+  margin: 40px auto;
+  padding: 8px 10px;
+  background-color: var(--colorPrime);
+  color: var(--colorLight);
+  border-radius: 15px;
+  text-align: center;
+}
+.cardCV{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
